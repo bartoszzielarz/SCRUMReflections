@@ -1,0 +1,23 @@
+Jaka jest ró¿nica miêdzy
+wymaganiami funkcjonalnymi i niefunkcjonalnymi? 
+
+Wymagania dzielê na wymagania funkcjonalne i wymagania niefunkcjonalne (zwane tak¿e wymaganiami jakoœciowymi). Ponadto identyfikujê ograniczenia.
+
+Wymagania funkcjonalne okreœlaj¹ funkcjonalnoœæ tworzonego oprogramowania.
+
+Wymagania funkcjonalne mog¹ byæ podzielone na wymagania funkcjonalne, wymagania dotycz¹ce zachowania systemu oraz wymagania dotycz¹ce danych.
+
+Wymagania niefunkcjonalne okreœlaj¹ po¿¹dane cechy tworzonego systemu i czêsto maj¹ bardziej znacz¹cy wp³yw na wybór architektury dla tworzonego systemu ni¿ wymagania funkcjonalne. Wymagania jakoœciowe dotycz¹ min. wydajnoœci, dostêpnoœci, niezawodnoœci, skalowalnoœci i przenoœnoœci.
+
+Ograniczenia dotycz¹ bezpoœrednio tworzonego systemu (np. System musi byæ zaimplementowany jako us³uga WEB) lub procesu produkcyjnego (np. System musi byæ dostarczony do koñca roku 2013).
+
+Ograniczenia w przeciwieñstwie do wymagañ funkcjonalnych i jakoœciowych nie s¹ implementowane w systemie, a dotycz¹ przestrzegania limitów rozwi¹zañ i zasobów w procesie produkcyjnym oprogramowania.
+
+
+Definicja: Wymaganie funkcjonalne
+
+Wymaganie funkcjonalne jest to wymaganie dotycz¹ce wyniku zachowania systemu, który powinien zostaæ dostarczony przez funkcjê systemu.
+
+Definicja: Wymaganie jakoœciowe
+
+Wymaganie jakoœciowe to wymaganie, które dotyczy jakoœci tworzonego oprogramowania, które nie zosta³o okreœlone przez wymagania funkcjonalne.
