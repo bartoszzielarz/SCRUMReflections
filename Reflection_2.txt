@@ -1,0 +1,31 @@
+
+Czym jest TDD
+
+TDD to podejœcie do tworzenia oprogramowania. Na taki sposób tworzenia oprogramowania uwagê zwróci³ Kent Beck1. Podejœcie to zak³ada, ¿e przed napisaniem w³aœciwej funkcjonalnoœci programista zaczyna od utworzenia testu. Test ten powinien testowaæ funkcjonalnoœæ, któr¹ dopiero chcemy napisaæ.
+
+TDD to podejœcie, które sk³ada siê z trzech faz. Te trzy fazy ³¹cz¹ siê w cykl. Ca³y proces pisania kodu sk³ada siê z w³aœnie takich cykli, które powtarzasz jeden po drugim. Cykl to trzy fazy:
+
+red,
+green,
+refactor.
+
+Faza Red
+Pierwszym krokiem jest napisanie testu. Test ten nie mo¿e siê powieœæ, poniewa¿ sama funkcjonalnoœæ jeszcze nie jest zaimplementowana. Mo¿liwe, ¿e nawet po napisaniu takiego testu kod nie bêdzie siê kompilowa³. Mo¿e siê tak staæ w przypadku, gdy napisa³eœ test dla metody, która jeszcze nie istnieje.
+
+Sytuacja, w której testy jednostkowe nie przechodz¹ bardzo czêsto w IDE oznaczana jest kolorem czerwonym.
+
+Faza Green
+Kolejnym krokiem jest napisanie kodu, który implementuje brakuj¹c¹ funkcjonalnoœæ. W tym momencie istotne jest to aby ten kod nie by³ „idealny”. Chodzi o mo¿liwe jak najszybsz¹ implementacjê, która spe³nia za³o¿enia testu, który by³ napisany w poprzedniej fazie.
+
+Nastêpnie potwierdzamy to, ¿e nasza implementacja dzia³a jak powinna uruchamiaj¹c testy jednostkowe. Jeœli wszystko jest w porz¹dku ca³oœæ powinna zakoñczyæ siê testami jednostkowymi, które przechodz¹. IDE sygnalizuje tak¹ sytuacjê zielonym kolorem. Wa¿ne jest aby w tej fazie uruchamiaæ wszystkie dotychczas napisane testy jednostkowe.
+
+Faza Refactor
+Refaktoryzacja (ang. refactor) to proces, w którym zmieniamy kod w taki sposób, ¿e nie zostaje zmieniona jego funkcjonalnoœæ. Mówi siê o „oczyszczaniu” kodu, doprowadzaniu go do lepszego stanu. Przyk³adem refaktoryzacji mo¿e byæ wydzielenie oddzielnej metody, która usuwa powielony kod czy stworzenie zupe³nie nowej klasy odpowiedzialnej za pewn¹ czêœæ zadañ danej klasy.
+
+Jest to ostatnia z trzech faz cyklu TDD. Faza refaktoryzacji jest bardzo istotna. Nawet doœwiadczeni programiœci bardzo czêsto pomijaj¹ tê fazê. Jej brak mo¿e w d³u¿szej perspektywie prowadziæ do kodu programu, który jest trudny w utrzymaniu. Praca z takim kodem mo¿e byæ wówczas du¿o ciê¿sza, proste zmiany mog¹ zajmowaæ bardzo du¿o czasu.
+
+Dziêki testom, które napisa³eœ w fazie Red czy wczeœniejszych cyklach TDD, mo¿esz czuæ siê swobodnie zmieniaj¹c istniej¹cy kod. Z wiêksz¹ pewnoœci¹ mo¿esz zmieniaæ kod, po ka¿dej zmianie uruchamiaj¹c istniej¹ce testy jednostkowe. Takie podejœcie pozwala Ci bardzo szybko wychwyciæ potencjalne b³êdy, które móg³byœ wprowadziæ refaktoryzuj¹c kod.
+
+Mo¿e siê zdarzyæ, ¿e faza refaktoryzacji nie zawsze jest konieczna. Usprawnianie dobrego kodu na si³ê nie koniecznie mo¿e prowadziæ do dobrych rezultatów.
+
+Rady praktyczne
