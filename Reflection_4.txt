@@ -1,0 +1,40 @@
+Jaka jest podstawowa ró¿nica pomiêdzy SCRUM a Kanban? 
+
+Scrum w pigu³ce
+Scrum, przez jednych, nie do koñca prawid³owo, nazywany metodyk¹, zgodnie z oficjaln¹ definicj¹ umieszczon¹ w polskiej wersji Scrum Guide to ramy postêpowania (ang. framework), dziêki którym ludzie mog¹ z powodzeniem rozwi¹zywaæ z³o¿one problemy adaptacyjne, by w sposób produktywny i kreatywny wytwarzaæ produkty o najwy¿szej mo¿liwej wartoœci1. Co warte podkreœlenia Scrum mo¿e byæ wykorzystywany nie tylko w tworzeniu produktów technologicznych.
+
+Scrum
+ród³o: http://www.agileforall.com/intro-to-agile/
+Sprint Backlog a Kanban
+Jednym z bardziej istotnych artefaktów dla Zespo³u Deweloperskiego (ang. Development Team) jest Backlog Sprintu (ang. Sprint Backlog), który, w du¿ym skrócie, obrazuje zakres pracy, nad którym zespó³ pracuje w bie¿¹cym Sprincie. Trzeba tutaj podkreœliæ, ¿e Scrum Guide nie definiuje jak powinien on wygl¹daæ. Mo¿emy znaleŸæ jedynie wskazówkê, ¿e Backlog Sprintu to zbiór elementów Backlogu Produktu wybranych do Sprintu rozszerzony o plan dostarczenia Przyrostu produktu i realizacji Celu Sprintu1. Pomimo to, ¿e przewodnik nie narzuca konkretnego sposobu b¹dŸ narzêdzia, jednym z najczêsciej stosowanych rozwi¹zañ jest tablica podzielona na co najmniej trzy kolumny z nag³ówkami: TO DO, IN PROGRESS, DONE, pomiêdzy którymi przesuwa siê elementy wybrane do Sprintu.
+
+http://blog.xebia.com/2008/09/19/the-task-burn-down-trap-everything-finished-nothing-done/
+ród³o: http://blog.xebia.com/2008/09/19/the-task-burn-down-trap-everything-finished-nothing-done/
+A teraz zapomnij na chwile o wszystkich elementach Scruma, oprócz tablicy przedstawiaj¹cej zadania pogrupowane w trzy kategorie i spróbuj odpowiedzieæ na pytanie: Czy to jest Kanban?
+
+Krótka historia metody Kanban
+Aby lepiej zrozumieæ metodê Kanban musimy przenieœæ siê do Japonii i odwiedziæ jedn¹ z fabryk firmy Toyota, gdzie jest on czêœci¹ wiêkszej filozofii “Just-in-Time” (JIT). Jej kluczowym za³o¿eniem jest dostarczanie w procesie produkcyjnym tylko tego, co jest potrzebne, tylko w takiej iloœci, która jest aktualnie potrzebna. JIT wraz z Jidok¹ to dwa kluczowe filary Systemu Produkcyjnego Toyoty (ang. Toyota Production System).
+
+S³owo Kanban po przet³umaczeniu z jêzyka japoñskiego oznacza szyld lub tabliczkê z napisem informuj¹cym. Jest to metoda sterowania produkcj¹, której najwa¿niejszym elementem jest sterowaniem zapasami – ka¿da komórka organizacyjna powinna produkowaæ tylko tyle towaru ile jest obecnie potrzebne. Celem metody jest redukcja zapasów, kosztów ich magazynowania, wyeliminowanie przestojów w produkcji, a ostatecznie zwiêkszenie produktywnoœci ca³ego przedsiêbiorstwa. Jednym z powodów do wprowadzenia pierwszej jej wersji w roku 1947 przez Taiichi Ohno, pracownika Toyoty, by³a wy¿sza produktywnoœæ konkurencyjnych firm ze Stanów Zjednoczonych. Doszukiwa³ siê on inspiracji wœród rozwi¹zañ stosowanych w supermarketach: Powinno byæ mo¿liwe, zorganizowanie przep³ywu materia³ów w produkcji, wg zasady supermarketu, konsument bierze z pó³ki okreœlon¹ iloœæ produktu, a powsta³a luka jest natychmiast uzupe³niana2.
+
+
+Wdro¿enie Kanbana w przedsiêbiorstwie produkcyjnym to proces nietrywialny, jednak na przyk³adzie Toyoyty, mo¿e ono przynieœæ zaskakuj¹ce efekty. Po trzech latach od wprowadzenia metody zanotowano tam:
+
+30% wzrost produkcji,
+60% redukcja wszelkich zapasów,
+90% redukcja braków,
+15% redukcja przestrzeni produkcyjnej,
+15% redukcja operatorów i personelu administracyjno-technicznego.3
+Kanban a wytwarzanie oprogramowania
+Kanban wykorzystywany do bardziej efektywnego wytwarzania oprogramowania w du¿ej mierze bazuje na jego oryginalnej wersji. Pomimo tego, ¿e sam proces ró¿ni siê od procesu produkowania samochodu, podstawowe mechanizmy zarz¹dzania taœm¹ produkcyjn¹ znajduj¹ zastosowanie równie¿ w przypadku wytwarzania oprogramowania. Dostosowana pod wymogi in¿ynierii oprogramowania wersja zosta³a po raz pierwszy przedstawiona w 2010 roku przez Davida J. Andersona w ksi¹¿ce Kanban: Successful Evolutionary Change for Your Technology Business. Wyró¿niæ mo¿na 5 podstawowych zasad, których przestrzeganie jest kluczowe, aby sukcesywnie wykorzystaæ metodê Kanban.
+
+Zwizualizuj proces
+Najwa¿niejsz¹ zasad¹ metody Kanban jest wizualizacja procesu. St¹d te¿ przekonanie, ¿e “transformacja” Scruma do postaci tablicy podzielonej na kolumny przedstawiaj¹cej kolejne etapy procesu to ju¿ Kanban. Tablica ta powinna jak najdok³adniej odŸwierciedlaæ ca³y proces dlatego te¿ mo¿e sk³adaæ siê z trzech kolumn, jednak¿e nie ma tutaj górnego limitu. Co wiêcej, oprócz samych kolumn, nad ka¿d¹ z nich powinna znajdowaæ siê liczba, która odŸwierciedla maksymaln¹ liczbê zadañ, które mog¹ znajdowaæ siê jednoczeœnie w danej kolumne. Liczby te maj¹ na celu ograniczenie pracy w toku (ang. work in progress) co jest kolejn¹ zasad¹ metody.
+
+ród³o: http://kanbanblog.com/explained/
+ród³o: http://kanbanblog.com/explained/
+Ogranicz pracê w toku
+Ograniczenie pracy w toku poprzez ograniczenie liczby zadañ, które jednoczeœnie mog¹ znajdowaæ siê na danym etapie procesu, pozwala na uwidocznienie problemów i identyfikacjê w¹skich garde³. Jednoczeœnie, poprzez skupienie siê cz³onków zespó³u na poszczególnych etapach, pomaga wyeliminowaæ wielozadaniowoœæ. Wprowadzenie limitów work in progress dodatkowo tworzy system pull, w którym zadania s¹ przenoszone do kolejnego etapu procesu tylko wtedy, kiedy w ramach limitu pracy w toku zwolni siê miejsce. Analizuj¹c powy¿sz¹ tablicê, mo¿na zauwa¿yæ, ¿e w¹skim gard³em mo¿e okazaæ siê faza testowania. Kolejne zadanie mo¿e przejœæ do etapu Analysis dopiero w momencie przeniesienia przynajmniej jednej karty z kolumny Test do kolumny Deploy. Mo¿e to sygnalizowaæ, ¿e zespó³ nie posiada wystarczaj¹cej liczby testerów.
+
+Zarz¹dzaj przep³ywem
+W celu ci¹g³ego usprawniania procesu wytwórczego trzeba systematycznie mierzyæ wartoœci, takie jak czas i p³ynnoœæ wykonywania zadañ. Przep³yw pracy przez ka¿dy etap jej przep³ywu powinien byæ monitorowany, zmierzony i zg³oszony. Poprzez aktywne zarz¹dzanie przep³ywem, oceniony mo¿e byæ negatywny lub pozytywny wp³yw ci¹g³ych, narastaj¹cych, ewolucyjnych zmian na system4. Je¿eli zadanie o zbli¿onym zakresie w przesz³oœci zosta³o wykonane w dwukrotnie krótszym czasie, mo¿e to sygnalizowaæ problem, który powinien zostaæ zbadany i rozwi¹zany. Idealny proces powinien charakteryzowaæ siê p³ynnoœcia, du¿¹ szybkoœci¹ realizacji zadañ oraz przewidywalnoœci¹.
